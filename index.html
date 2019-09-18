@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Moise Ingabire</title>
+        <link href="style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    </head>
+    <body>
+        <div class="container">
+<div class="menu">
+    <ul>
+        <li class="logo"><a href="index.html"><img src="images/dev.png"/></a></li>
+        <li><a href="index.html">Home</a></li>        
+        <li><a href="portfolio.html">My work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="github" href="https://github.com/ingabiremo20" target="_blank"><i class="fab fa-github"></i></a></li>        
+        <li><a class="linkedin" href="https://linkedin.com/in/moise-ingabire" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    </ul>  
+    </div> 
+    <div class="banner">
+        <div class="banner-text">
+          <img src="images/moise.jpg"/>
+                 <h1>HELLO, LOOKING FOR DEVELOPER?</h1>
+                 <p>I'am well-trained and experienced ASP.NET and Java developer with comprehensive knowledge of all aspects of web development.</p>
+               <a class="contact-button" href="contact.html"><strong>Hire me</strong> </a>
+              
+        </div>
+    </div>
+   
+<div class="content">
+        <div class="column">
+                <h2>About</h2>
+                <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="moise-ingabire"><a class="LI-simple-link" href='https://www.linkedin.com/in/moise-ingabire?trk=profile-badge'>Moise Ingabire</a></div>
+              </div>
+              <div class="column">
+                <h2>Skills</h2>
+                <p><strong>Programming languages:</strong> C#, ASP.NET MVC, Java, JavaScript, HTML, CSS, JSP Servlets.<br>
+                  <strong>  Database:</strong> MySQL, Oracle Database, Microsoft SQL Server.<br>
+                      <strong>Servers:</strong> IIS, Apache Tomcat.<br>
+                    <strong> Tools:</strong> Visual Studio IDE, Visual Studio code, Netbeans IDE, Eclipse IDE.<br>
+                      <strong> Methodologies:</strong> Object Oriented Programming, Test-Driven Development.</p>
+              </div>
+              <div class="column">
+                  <h3>My Home</h3>
+                  <!--The div element for the map -->
+                   <!--The div element for the map -->
+                   <div id="map"></div>
+                   <script>                 // Initialize and add the map
+                      function initMap() {
+                      // The location of Uluru
+                      var uluru = {lat:  42.963795, lng: -85.670006};
+                      // The map, centered at Uluru
+                      var map = new google.maps.Map(
+                         document.getElementById('map'), {zoom: 8, center: uluru});
+                      // The marker, positioned at Uluru
+                      var marker = new google.maps.Marker({position: uluru, map: map});
+                      }
+                       </script>
+                       <!--Load the API from the specified URL
+                       * The async attribute allows the browser to render the page while the API loads
+                       * The key parameter will contain your own API key (which is not needed for this tutorial)
+                       * The callback parameter executes the initMap() function
+                       -->
+                       <script async defer
+                       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjfvHW_A_FSZwnadhmtyC6CcJxtWlJ0Fo&callback=initMap">
+                       </script>
+              </div>
+</div>
+<div class="footer">
+    <div class="menu">
+        <ul>           
+                <li><a href="index.html">Home</a></li>        
+                <li><a href="portfolio.html">My work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="github" href="https://github.com/ingabiremo20" target="_blank"><i class="fab fa-github"></i></a></li>        
+                <li><a class="linkedin" href="https://linkedin.com/in/moise-ingabire" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>  
+        <p>
+                &copy;<script> document.write(new Date().getFullYear()); </script> Moise Ingabire 
+          </p>
+        </div> 
+    </div>
+
+    </div>
+    </body>
+</html>

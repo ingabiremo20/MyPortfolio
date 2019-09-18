@@ -1,0 +1,206 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/web1.jpg");
+}
+.menu{
+    background-color: #d7e0e0;
+   
+}
+.menu ul {
+    display: inline-flex;   
+    margin: 50px;
+   
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: black;
+    cursor: pointer;
+}
+.logo img{
+    width: 60px;
+    margin-top: -7px;
+    margin-right: 48px;
+    border-radius: 50%; 
+
+}
+.linkedin{  
+   right: 80px;
+   position: absolute;
+   text-decoration: none;
+  font-size:30px;color:blue;
+
+}
+.github{
+    right: 150px;
+   position: absolute;
+   text-decoration: none;
+  font-size:30px;color:blue;
+  }
+ .banner{
+     
+     width: 80%;
+     height:65% ;
+     top: 18%;
+     left: 130px;
+     position: absolute;
+     color: black;
+     background-color: aquamarine;
+ }
+ .banner-text h1{
+     text-align: center;
+     font-size: 33px;
+     width: 600px;
+     position: relative;
+     margin-left: 160px;
+ }
+ .banner-text img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;  
+  border-radius: 50%;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+ }
+
+ .banner-text p{
+    font-size: 18px;
+    width: 650px;
+    position: relative;
+    margin-left: 130px;
+    text-align: center;
+}
+.contact-button{
+    font-size: 24px;       
+    margin-left: 320px;
+    text-align: center;
+    background-color:violet;
+  color: white;
+  padding: 14px 25px;  
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.content{
+    width: 80%;
+    height:40% ;
+    top: 80%;
+    left: 130px;
+    position: absolute;
+
+}
+.content-portfolio{
+    width: 80%;
+    height:40% ;
+    top: 30%;
+    left: 130px;
+    position: absolute;
+}
+.column-portfolio {
+    float: left;   
+    height:120% ;
+    top: 80%;
+    left: 130px;
+    width: 31.47%;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+  }
+  
+.footer{
+    width: 80%;
+    height:20% ;
+    top: 133%;
+    left: 130px;
+    margin-bottom: 5px;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.column {
+    float: left;   
+    height:120% ;
+    top: 80%;
+    left: 130px;
+    width: 31.47%;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+  }
+  
+  /* Clear floats after the columns */
+  .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #map {
+    top: -3%;
+    height:80% ;  /* The height is 400 pixels */
+    left: -5px;
+    width: 100%;
+   }
+   #map1 {
+    top: -3%;
+    height:90% ;  /* The height is 400 pixels */
+    left: -5px;
+    width: 100%;
+   }
+   input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .column1 {
+    float: left;   
+    height:100% ;
+    top: 75%;    
+    width: 40%;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
